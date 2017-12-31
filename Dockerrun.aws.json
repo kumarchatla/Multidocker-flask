@@ -25,11 +25,6 @@
       ],
       "mountPoints": [
         {
-          "sourceVolume": "flask-app",
-          "containerPath": "/app",
-          "readOnly": true
-        },
-        {
           "sourceVolume": "nginx-proxy-conf",
           "containerPath": "/etc/nginx/conf.d",
           "readOnly": true
